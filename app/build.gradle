@@ -1,0 +1,17 @@
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.myrobotcar.controller'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.myrobotcar.controller'
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
+}
